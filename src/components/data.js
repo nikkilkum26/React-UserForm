@@ -6,7 +6,7 @@ const Data=()=>{
     const[userList,setUserList] =useState([])
 
     useEffect(() => {
-        axios.get("http://localhost:3030/read").then((response) => {
+        axios.get("https://userdetialsserver.herokuapp.com/read").then((response) => {
           console.log(response)
           setUserList(response.data);
         })

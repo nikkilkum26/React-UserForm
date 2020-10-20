@@ -34,7 +34,7 @@ const Home = () => {
 
         axios({
             method: 'post',    
-            url: "http://localhost:3030/insert",
+            url: "https://userdetialsserver.herokuapp.com/insert",
             data: {
                 Name: name,
                 Email: email,
