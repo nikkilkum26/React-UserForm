@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 import {Link} from 'react-router-dom';
-import Data from './data'
+// import Data from './data'
 
 const Title=()=>{
     let styles={

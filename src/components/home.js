@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import axios from 'axios';
 
@@ -16,18 +16,18 @@ const Home = () => {
     const [food, setFood] = useState("");
     const [color, setColor] = useState("");
 
-    let items = {
-        "Name": name,
-        "Email": email,
-        "Country": country,
-        "State": state,
-        "City": city,
-        "Address": addr,
-        "Gender": gender,
-        "Married": married,
-        "Food": food,
-        "Color": color,
-    }
+    // let items = {
+    //     "Name": name,
+    //     "Email": email,
+    //     "Country": country,
+    //     "State": state,
+    //     "City": city,
+    //     "Address": addr,
+    //     "Gender": gender,
+    //     "Married": married,
+    //     "Food": food,
+    //     "Color": color,
+    // }
 
     let submit = (e) => {
         e.preventDefault();
